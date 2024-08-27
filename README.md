@@ -652,4 +652,4 @@ np.argmax(model.predict(pred_image.reshape(1,32,32,3)), axis=-1)
 
 And there we go! 
 
-We took a picture in our test model indexed [0] which is a bit *dubious* as we can see under the image show, and we used the prediction model to tell us what it thinks it is, and gave us array[3] which is a cat!
+We took a picture in our test model indexed [0] which is a bit *dubious* as we can see under the image show, and using the prediction model gave us array[3] which is the label for cat!
