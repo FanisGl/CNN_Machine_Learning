@@ -122,7 +122,7 @@ x_train[0].shape
 
 
 
-[0] is a picture indexed 0, which we can see when we ".shape" by having 32x32 pixels and 3 colour channels. If interested about the consistency of the pixels of the image data, it can be observed on its raw form under the result of "x_train[0]." The arrays are combinations of values of colours that make up what we say 32 by 32.
+[0] is a picture indexed 0, which we can see when we ".shape" by having 32x32 pixels and 3 colour channels. If we are interested about the consistency of the pixels of the image data, it can be observed on its raw form under the result of "x_train[0]." The arrays are combinations of values of colours that make up what we say 32 by 32.
 
 To be more practical, let's show that picture indexed [0] below.
 
