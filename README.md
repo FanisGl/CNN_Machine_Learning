@@ -202,6 +202,8 @@ x_train[0].max()
 
 This tells us that indeed, the maximum value that a picture can take for any given variable/value within an array is 255, and therefore has the range of [0-255].
 
+With that logic we proceed to scale the model on all it's dimensions by 255.
+
 
 ```python
 x_train = x_train/255
